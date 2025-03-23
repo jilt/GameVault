@@ -2,7 +2,7 @@
 Repository for the aleph hackathon's Game Vault generator project
 
 ## This project is a simple graphics generator for videogames that runs on an open source UI on low ram environments generating all graphic assets with the right naming to be included in the JS game.
-The JS finels interact with ethers6 cnd to connect with a simple Vault 4676 contract on ZKsync, allowing LP tokens owner to access shares of a valut.
+The JS files interact with ethers6 cnd to connect with a simple Vault 4676 contract on ZKsync, allowing LP tokens owner to access shares of a valut.
 
 1) to start the game you nee to have an amount of token0 on your connected wallet.
 2) based on the timing of your play you get an amount of token1 when you finish the game
