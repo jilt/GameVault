@@ -1,16 +1,38 @@
 <style>
     body {
-      background: black;
+        margin: 0; /* Remove default body margins */
+        height: 100vh; /* Make body take up the full viewport height */
+        display: flex; /* Enable flexbox for vertical centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        background: black;
+    }
+
+    .canvas-container {
+        position: relative; /* Needed for absolute positioning of the button */
+         text-align: center; /* Center the canvas horizontally within the container (for inline elements) */
+    }
+
+    .top-button {
+        position: absolute; /* Position the button relative to the container */
+        top: 10px; /* Adjust as needed to position above the canvas */
+        left: 50%; /* Center the button horizontally */
+        transform: translateX(-50%); /* Fine-tune horizontal centering */
+        background-color: white;
+        color: blue;
+        padding: 10px 20px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
     }
   </style>
+  <div class="canvas-container">
+    <button class="top-button">Connect Wallet</button>
   <canvas></canvas>
-  
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
-    integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6/+esm"></script>
   <script src="js/utils.js"></script>
   <script src="js/data/collisions.js"></script>
   <script src="js/classes/CollisionBlock.js"></script>
