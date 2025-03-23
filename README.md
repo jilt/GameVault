@@ -11,9 +11,9 @@ The JS files interact with ethers6 cdn to connect with a simple Vault 4676 contr
 3) at the end of the game you are asked to put all your tokens in the Liquid Pool in order to mint shared of the GameVault contract tokens.
 4) With these shares you can access *GameJoinLike* possible external lending strategies, Liquid pools fees and the Vault's *pot* yield strategy.
 
-   Working generator app
+   [Working generator app](https://drive.google.com/file/d/1L75W9rvduy3-wXnP62Nncd3jLobutjwK/view?usp=sharing)
    
-   Demo video
+   [Demo video](https://drive.google.com/file/d/1CeDLd0Ag3nnjEpxKEV_IlkmIEXeDpVmY/view?usp=sharing)
 
 ## how to play
 move the robot with a w and d keys, enter doors and jump with w
