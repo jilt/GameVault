@@ -1,7 +1,7 @@
 # GameVault
 Repository for the aleph hackathon's Game Vault generator project
 
-## This project is a simple graphic generator for videogames that runs on an [open source UI](https://www.comfy.org/) on low ram environments generating all graphic assets with the right naming to be included in the JS game.
+## Graphic generator for videogames that runs on an [open source UI](https://www.comfy.org/) creating all graphic assets with the right naming to be included in the JS game.
 [Graphics generation configuration](https://github.com/jilt/GameVault/blob/main/Graph-generator.json)
 
 The JS files interact with ethers6 cdn to connect with a simple Vault 4676 contract on ZKsync, allowing LP tokens owner to access shares of a vault.
@@ -17,5 +17,5 @@ The JS files interact with ethers6 cdn to connect with a simple Vault 4676 contr
    
    [Demo video](https://drive.google.com/file/d/1CeDLd0Ag3nnjEpxKEV_IlkmIEXeDpVmY/view?usp=sharing)
 
-## how to play
+## How to play
 move the robot with a w and d keys, enter doors and jump with w
