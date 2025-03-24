@@ -13,7 +13,7 @@ The JS files interact with ethers6 cdn to connect with a simple Vault 4676 contr
 
    [Playable game](https://jilt.github.io/GameVault/)
 
-   [WebApp and instructions](https://www.seaart.ai/workFlowAppDetail/cvfvn2te878c73f6e09g)
+   [WebApp and instructions](https://www.seaart.ai/workFlowAppDetail/cvfvn2te878c73f6e09g?u_code=PILFOELI)
 
    [Generator setup Demo video](https://drive.google.com/file/d/1L75W9rvduy3-wXnP62Nncd3jLobutjwK/view?usp=sharing)
    
