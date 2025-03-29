@@ -1,6 +1,9 @@
 # GameVault
 Repository for the aleph hackathon's Game Vault generator project
 
+![game vault](
+img/backgroundLevel3.png)
+
 ## Graphic generator for videogames that runs on an [open source UI](https://www.comfy.org/) creating all graphic assets with the right naming to be included in the JS game.
 [Graphics generation configuration](https://github.com/jilt/GameVault/blob/main/Graph-generator.json)
 
